@@ -20,8 +20,12 @@ mongoose
   .connect(DB_URL)
   .then(() => console.log("Database Connected"))
   .catch((e) => console.log(e));
-  
-  app.use
-  app.listen(PORT,()=>{
-    console.log(`Server is now running on port  ${PORT}`)
-  })
+
+//routes configuration
+
+
+
+app.use;
+app.listen(PORT, () => {
+  console.log(`Server is now running on port  ${PORT}`);
+});
